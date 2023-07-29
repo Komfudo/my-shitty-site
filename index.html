@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to my website</title>
+</head>
+<body>
+<center>
+<h1>Hi welcome to my Site i'm Komfudo</h1>
+<img src="/img/kom.png" alt="yeah femboy kom whatever lol give me a better picture instead..." width="277" height="396">
+<h3>About myself</h3>
+<p id="age">Full Username: Komfudo Richman<br>Age: [My Age] years old</p>
+<h3>oh you wanted to go to Kom-vidz?</h3>
+<p>Sure there:</p>
+<br>
+<p>[BANNERS GOES HERE]</p>
+<p>Footer goes here</p>
+<!-- Shitty age conversion ass code, need to place it to a js. file soon before deployment-->
+<script>
+        function calculateAge(birthdate) {
+            const birthdateObj = new Date(birthdate);
+            const today = new Date();
+
+            const yearsDiff = today.getFullYear() - birthdateObj.getFullYear();
+
+            const birthMonth = birthdateObj.getMonth();
+            const todayMonth = today.getMonth();
+            const birthDay = birthdateObj.getDate();
+            const todayDate = today.getDate();
+
+            if (todayMonth < birthMonth || (todayMonth === birthMonth && todayDate < birthDay)) {
+                return yearsDiff - 1;
+            } else {
+                return yearsDiff;
+            }
+        }
+
+        const birthdate = '2004-05-19';
+        const age = calculateAge(birthdate);
+        document.getElementById('age').innerHTML = document.getElementById('age').innerHTML.replace('[My Age]', age);
+    </script>
+</center>
+</body>
+</html>
