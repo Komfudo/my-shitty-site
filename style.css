@@ -1,3 +1,10 @@
 .main {
-font-family:    Arial, Helvetica, sans-serif
+font-family:    Arial, Helvetica, sans-serif;
+width:          550px;
+margin:         auto;
+}
+
+.kom {
+width:          240px;
+margin:         auto;
 }
