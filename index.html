@@ -2,42 +2,20 @@
 <html>
 <head>
 <title>Welcome to my website</title>
+<script src="agemath.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="main">
 <center>
 <h1>Hi welcome to my Site i'm Komfudo</h1>
 <img src="/img/kom.png" alt="yeah femboy kom whatever lol give me a better picture instead..." width="277" height="396">
 <h3>About myself</h3>
-<p id="age">Full Username: Komfudo Richman<br>Age: [My Age] years old<br>Location: Germany<br>Interests: Making different stuffs like random programming (i'm still a noob), hosting to try stuff out, just everything Computer related.<br>Personality: In Real Life i'm mostly introverted and also just silent because i'm not a fan of direct communication but i still try. In The Internet i'm just a cute and kind femboy hehe... If you dislike it then fine, everyone has they opinions as long you're not trying to annoy me because i guess cry about then.<br>little bio: ok, hi i'm Komfudo well known as Pingaskid Ultragaming also well known as Zero21Z i'm a Pansexual Autistic german person with a Turkish migration background (ugh, this was long) Femboy (Internet only). And i'm doing different stuffs because i never get stuff finished honestly. I do like everyone, mostly on feminine people and cute people <3. I'm a fan of older Tech stuff and i love my wii u and also my childhood DS Lite. Don't worry i also my 2ds. What i really which is just to have friends it least in IRL because i wanted to be happy or it least a relationship. My contacts are down there:<br><br>Email: komfudo@protonmail.com (i rarely use it and probably need a new email)<br>My Mastodon account: <a href="https://wetdry.world/@Komfudo">@Komfudo</a><br>My Youtube: <a href="https://www.youtube.com/@Komfudo">Komfudo</a><br>My Discord account (open for DMs): komfudo (discord has no longer the discriminator so i don't know if you can find me.)<br><br>Would be happy if you want me to contact me :3</p>
-<h3>oh you wanted to go to Kom-vidz?</h3>
-<p>Sure there: <a href="https://vidz.komfudo.eu.org">Kom-vidz</a></p>
+<p id="age math included"><b>Full Username:</b> Komfudo Richman<br><b>Age:</b> [My Age] years old<br><b>Location:</b> Germany<br><b>Interests:</b> Making different stuffs like random programming (i'm still a noob), hosting to try stuff out, just everything Computer related.<br><b>Personality:</b> In Real Life i'm mostly introverted and also just silent because i'm not a fan of direct communication but i'm still trying. In The Internet i'm just a cute and kind femboy hehe... If you dislike it then fine, everyone has they opinions as long you're not trying to annoy me because i guess cry about then.<br><b>little bio:</b> ok, hi i'm Komfudo well known as Pingaskid Ultragaming also well known as Zero21Z i'm a Pansexual Autistic german person with a Turkish migration background (ugh, this was long) Femboy (Internet only). And i'm doing different stuffs because i never get stuff finished honestly. I do like everyone, mostly on feminine people and cute people <3. I'm a fan of older Tech stuff and i love my wii u and also my childhood DS Lite. Don't worry i also my 2ds. What i really which is just to have friends it least in IRL because i wanted to be happy or it least a relationship.<br><br> <b>My contacts are down there:</b><br><b>Email:</b> komfudo@protonmail.com (i rarely use it and probably need a new email)<br><b>My Mastodon account:</b> <a href="https://wetdry.world/@Komfudo">@Komfudo</a><br><b>My Youtube:</b> <a href="https://www.youtube.com/@Komfudo">Komfudo</a><br><b>My Discord account</b> (open for DMs): <b><u>komfudo</u></b> (discord has no longer the discriminator so i don't know if you can find me.)<br><br>Would be happy if you want me to contact me :3</p>
 <br>
 <p>[BANNERS GOES HERE]</p>
 <p>Footer goes here</p>
-<!-- Shitty age conversion ass code, need to place it to a js. file soon before deployment-->
-<script>
-        function calculateAge(birthdate) {
-            const birthdateObj = new Date(birthdate);
-            const today = new Date();
-
-            const yearsDiff = today.getFullYear() - birthdateObj.getFullYear();
-
-            const birthMonth = birthdateObj.getMonth();
-            const todayMonth = today.getMonth();
-            const birthDay = birthdateObj.getDate();
-            const todayDate = today.getDate();
-
-            if (todayMonth < birthMonth || (todayMonth === birthMonth && todayDate < birthDay)) {
-                return yearsDiff - 1;
-            } else {
-                return yearsDiff;
-            }
-        }
-
-        const birthdate = '2004-05-19';
-        const age = calculateAge(birthdate);
-        document.getElementById('age').innerHTML = document.getElementById('age').innerHTML.replace('[My Age]', age);
-    </script>
 </center>
+</div>
 </body>
 </html>
