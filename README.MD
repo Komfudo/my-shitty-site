@@ -1,3 +1,5 @@
+# THIS REPO GOT READ ONLY AS THIS WEBSITE NEEDS TO BE REWRITING ANYWAY BY I'M ALSO LAZY
+
 # My (Shitty) Website
 It's just a my website. Static and also simple. I suck at design.
 
